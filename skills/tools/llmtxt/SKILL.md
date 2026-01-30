@@ -437,7 +437,7 @@ Step 1: Implementation
 
 ## Templates
 
-See: `templates/llmtxt_template.md` for a starting template.
+See: [template.md](template.md) for a starting template to structure your llmtxt documentation.
 
 ---
 

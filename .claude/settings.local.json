@@ -16,7 +16,11 @@
       "Bash(git commit:*)",
       "Bash(git -C /Users/james/python-quality-loop status)",
       "Bash(git -C /Users/james/python-quality-loop log --oneline -15)",
-      "Bash(__NEW_LINE_d54be1bbd02ecac8__ python3 -m json.tool /Users/james/python-quality-loop/.claude-plugin/plugin.json)"
+      "Bash(__NEW_LINE_d54be1bbd02ecac8__ python3 -m json.tool /Users/james/python-quality-loop/.claude-plugin/plugin.json)",
+      "Bash(__NEW_LINE_b14a3c25fab6cb8d__ python3 -m json.tool /Users/james/python-quality-loop/.claude-plugin/marketplace.json)",
+      "Bash(__NEW_LINE_07f7c0e66b977371__ python3 -m json.tool /Users/james/python-quality-loop/.claude-plugin/plugin.json)",
+      "Bash(__NEW_LINE_0706328b33ab5120__ git add .claude-plugin/plugin.json)",
+      "Bash(git push)"
     ]
   },
   "enabledPlugins": {

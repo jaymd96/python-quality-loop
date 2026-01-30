@@ -81,7 +81,7 @@ Each playground file:
 3. Prints clear results
 4. Returns success/failure status
 
-See [references/setup.md](references/setup.md) for templates and patterns.
+See [template.py](template.py) for a starting template and [references/setup.md](references/setup.md) for detailed setup patterns.
 
 ---
 
