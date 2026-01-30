@@ -316,7 +316,7 @@ chore(scope): description    # Maintenance
 ## File Structure
 
 ```
-python-quality-loop/
+dotskill/
 ├── .claude-plugin/
 │   └── plugin.json                              # Plugin configuration
 ├── skills/

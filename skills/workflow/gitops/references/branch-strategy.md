@@ -115,7 +115,7 @@ Example `.github/settings.yml`:
 
 ```yaml
 repository:
-  name: python-quality-loop
+  name: dotskill
   description: Manager-Doer workflow with quality gates
   private: false
   has_issues: true

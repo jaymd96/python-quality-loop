@@ -245,8 +245,8 @@ disable-model-invocation: true  # OPTIONAL: true = Claude won't auto-invoke
 
 ### Plugin Name (in plugin.json)
 - Format: kebab-case (lowercase with hyphens)
-- Examples: `jaymd96`, `code-review`, `plugin-dev`
-- Used in skill namespaces: `/jaymd96:skill-name`
+- Examples: `dotskill`, `code-review`, `plugin-dev`
+- Used in skill namespaces: `/dotskill:skill-name`
 
 ### Skill Names (in SKILL.md frontmatter)
 - Format: kebab-case
@@ -364,4 +364,4 @@ claude --plugin-dir /path/to/plugin
 - [ ] `README.md` at plugin root with documentation
 - [ ] `LICENSE` file present
 - [ ] Plugin can install: `claude --plugin-dir /path/to/plugin`
-- [ ] Skills appear in `/jaymd96:skill-name` format (with plugin namespace)
+- [ ] Skills appear in `/dotskill:skill-name` format (with plugin namespace)

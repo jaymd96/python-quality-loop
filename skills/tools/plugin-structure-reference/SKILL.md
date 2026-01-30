@@ -249,9 +249,9 @@ Skills are accessed with the plugin namespace:
 
 **Example:**
 ```
-/jaymd96:python-testing
-/jaymd96:workflow-manager
-/jaymd96:package-research
+/dotskill:python-testing
+/dotskill:workflow-manager
+/dotskill:package-research
 ```
 
 ### Auto-discovery behavior

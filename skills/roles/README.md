@@ -4,7 +4,7 @@ This category contains skills for the three roles in the Manager-Doer pattern.
 
 ## Overview
 
-The python-quality-loop uses a three-role system to ensure clear responsibility separation and prevent conflicts of interest:
+The dotskill plugin uses a three-role system to ensure clear responsibility separation and prevent conflicts of interest:
 
 - **Manager**: Sets expectations, evaluates quality, makes go/no-go decisions
 - **Developer**: Implements solutions, tests thoroughly, reports status
