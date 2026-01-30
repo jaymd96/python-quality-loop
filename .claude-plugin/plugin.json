@@ -70,7 +70,7 @@
     },
     {
       "name": "unix-philosophy",
-      "path": "skills/philosophy/unix-philosophy.md",
+      "path": "skills/philosophy/unix-philosophy/SKILL.md",
       "description": "Unix philosophy principles for Python development. Composition over reimplementation, small focused modules, leveraging existing tools."
     },
     {
