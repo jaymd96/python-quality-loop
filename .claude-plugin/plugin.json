@@ -1,0 +1,106 @@
+{
+  "name": "python-quality-loop",
+  "description": "Iterative Python development workflow with Manager-Doer orchestration, quality gates, GitOps integration, Unix philosophy composition patterns, Knuth's dogfooding philosophy, and consistent code layout standards. Provides workflow orchestration, role-based skills (Manager, Developer, Reviewer), package research, playground exploration, llmtxt documentation, and automated quality enforcement.",
+  "version": "1.3.0",
+  "author": {
+    "name": "James"
+  },
+  "repository": "https://github.com/jaymd96/python-quality-loop",
+  "license": "Apache-2.0",
+  "keywords": [
+    "workflow",
+    "manager-doer",
+    "quality-gates",
+    "python",
+    "iterative-development",
+    "code-review",
+    "gitops",
+    "orchestration",
+    "unix-philosophy",
+    "composition",
+    "package-research",
+    "llmtxt",
+    "dogfooding",
+    "playground",
+    "code-layout"
+  ],
+  "compatibility": "Designed for Claude Code. Requires git for GitOps features.",
+  "metadata": {
+    "category": "development-workflow",
+    "min-version": "1.0.0"
+  },
+  "skills": [
+    {
+      "name": "workflow-manager",
+      "path": "skills/manager.md",
+      "description": "Manager role for oversight, quality gates, and decisions"
+    },
+    {
+      "name": "workflow-developer",
+      "path": "skills/developer.md",
+      "description": "Developer role for implementation and testing"
+    },
+    {
+      "name": "workflow-reviewer",
+      "path": "skills/reviewer.md",
+      "description": "Reviewer role for independent quality evaluation"
+    },
+    {
+      "name": "python-development-workflow",
+      "path": "skills/workflow.md",
+      "description": "Overall workflow orchestration"
+    },
+    {
+      "name": "gitops-workflow",
+      "path": "skills/gitops.md",
+      "description": "Git operations, branching, and PR workflows"
+    },
+    {
+      "name": "python-coding-standards",
+      "path": "skills/python_coding.md",
+      "description": "Python coding standards and patterns"
+    },
+    {
+      "name": "python-testing-standards",
+      "path": "skills/python_testing.md",
+      "description": "Python testing with pytest"
+    },
+    {
+      "name": "package-research",
+      "path": "skills/package_research.md",
+      "description": "Research existing packages before implementing. Guides systematic package discovery, evaluation, and build vs compose decisions."
+    },
+    {
+      "name": "llmtxt-generation",
+      "path": "skills/llmtxt.md",
+      "description": "Create concise documentation for LLM consumption using the llms.txt standard. For onboarding packages and creating AI-friendly references."
+    },
+    {
+      "name": "unix-philosophy",
+      "path": "skills/unix_philosophy.md",
+      "description": "Unix philosophy principles for Python development. Composition over reimplementation, small focused modules, leveraging existing tools."
+    },
+    {
+      "name": "playground-exploration",
+      "path": "skills/playground.md",
+      "description": "Playground-driven development using Knuth's dogfooding philosophy. Discover features through real usage, find missing functionality, and convert experiments to tests."
+    },
+    {
+      "name": "python-layout",
+      "path": "skills/python_layout.md",
+      "description": "Python project and module structure guidance. Consistent conventions for project structure, module organization, file naming, and code organization within files."
+    }
+  ],
+  "templates": [
+    {
+      "name": "llmtxt-template",
+      "path": "templates/llmtxt_template.md",
+      "description": "Template for creating llmtxt documentation for packages"
+    },
+    {
+      "name": "playground-template",
+      "path": "templates/playground_template.py",
+      "description": "Starter template for playground exploration files with standard structure and discovery patterns"
+    }
+  ]
+}
