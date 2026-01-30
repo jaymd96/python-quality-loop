@@ -13,7 +13,13 @@
       "Bash(__NEW_LINE_36f7a1e0569558ed__ echo \"Skills Directory:\")",
       "Bash(__NEW_LINE_ac97c604cd1ec4b3__ echo -e \"\\\\n=== Verification ===\")",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git -C /Users/james/python-quality-loop status)",
+      "Bash(git -C /Users/james/python-quality-loop log --oneline -15)",
+      "Bash(__NEW_LINE_d54be1bbd02ecac8__ python3 -m json.tool /Users/james/python-quality-loop/.claude-plugin/plugin.json)"
     ]
+  },
+  "enabledPlugins": {
+    "github@claude-plugins-official": false
   }
 }

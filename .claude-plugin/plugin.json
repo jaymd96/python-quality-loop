@@ -25,7 +25,7 @@
   "skills": [
     {
       "name": "workflow-manager",
-      "path": "skills/roles/manager.md",
+      "path": "skills/roles/manager/SKILL.md",
       "description": "Manage Python development workflows with quality gates and decisions. Use when defining quality standards, evaluating code against gates, making accept/iterate/escalate decisions, or overseeing module development. Enforces structured process over raw capability."
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "name": "workflow-reviewer",
-      "path": "skills/roles/reviewer.md",
+      "path": "skills/roles/reviewer/SKILL.md",
       "description": "Independently evaluate code quality and workflow compliance. Use when performing objective quality assessment, validating against quality gates, or providing recommendations for management decisions. Separates review from development for objectivity."
     },
     {
@@ -50,12 +50,12 @@
     },
     {
       "name": "python-coding-standards",
-      "path": "skills/foundations/python-coding.md",
+      "path": "skills/foundations/python-coding/SKILL.md",
       "description": "Write production-quality Python code using established coding standards. Use when implementing modules, classes, or functions. Covers naming conventions, module layout, error handling, type hints, immutability, and design patterns."
     },
     {
       "name": "python-testing-standards",
-      "path": "skills/foundations/python-testing.md",
+      "path": "skills/foundations/python-testing/SKILL.md",
       "description": "Write effective Python tests using pytest and best practices. Use when creating test suites, designing test scenarios, handling edge cases, or ensuring comprehensive code coverage. Covers test organization, fixtures, parametrization, and validation."
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "name": "literate-python",
-      "path": "skills/foundations/literate-python.md",
+      "path": "skills/foundations/literate-python/SKILL.md",
       "description": "Write Python code with literate programming annotations using Litterate-compatible #> markers. Use when writing code intended for human understanding, adding meaningful documentation without redundancy, or when user requests literate style. Annotations explain WHY and provide context—never repeat WHAT code does."
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "name": "package-research",
-      "path": "skills/philosophy/package-research.md",
+      "path": "skills/philosophy/package-research/SKILL.md",
       "description": "Research existing packages before implementing. Guides systematic package discovery, evaluation, and build vs compose decisions."
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "name": "llmtxt-generation",
-      "path": "skills/tools/llmtxt.md",
+      "path": "skills/tools/llmtxt/SKILL.md",
       "description": "Create concise documentation for LLM consumption using the llms.txt standard. For onboarding packages and creating AI-friendly references."
     }
   ],
