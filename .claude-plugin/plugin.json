@@ -80,7 +80,7 @@
     },
     {
       "name": "playground-exploration",
-      "path": "skills/philosophy/playground.md",
+      "path": "skills/philosophy/playground/SKILL.md",
       "description": "Playground-driven development using Knuth's dogfooding philosophy. Discover features through real usage, find missing functionality, and convert experiments to tests."
     },
     {
