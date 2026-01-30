@@ -59,44 +59,60 @@ Reference skills by reading files when needed in your Claude Code session.
 
 ---
 
-## Skills Included
+## Skills Organization
 
-### Role Skills
+Skills are organized into 5 categories for easier navigation:
 
-| Skill | File | Purpose |
-|-------|------|---------|
-| **Manager** | `manager.md` | Oversight, quality gates, decisions |
-| **Developer** | `developer.md` | Implementation, testing, reporting |
-| **Reviewer** | `reviewer.md` | Independent quality evaluation |
+- **[Roles](roles/)** - Manager-Doer pattern roles (Manager, Developer, Reviewer)
+- **[Workflow](workflow/)** - Orchestration and Git integration
+- **[Foundations](foundations/)** - Core technical skills (Python coding, testing, layout, literate programming)
+- **[Philosophy](philosophy/)** - Design principles (Unix philosophy, package research, dogfooding)
+- **[Tools](tools/)** - Utility skills (llmtxt documentation generation)
 
-### Technical Skills
+## Quick Skill Finder
 
-| Skill | File | Purpose |
-|-------|------|---------|
-| **Python Coding** | `python_coding.md` | Writing production code |
-| **Python Testing** | `python_testing.md` | Writing effective tests |
+### By Task
 
-### Workflow Skills
+| Task | Skills |
+|------|--------|
+| **Starting a new feature** | [workflow/workflow](workflow/) → [philosophy/](philosophy/) (research packages) |
+| **Implementing code** | [foundations/python-coding](foundations/python-coding.md) |
+| **Testing code** | [foundations/python-testing](foundations/python-testing.md) |
+| **Organizing code** | [foundations/python-layout](foundations/python-layout.md) |
+| **Adding annotations** | [foundations/literate-python](foundations/literate-python.md) |
+| **Designing with composition** | [philosophy/unix-philosophy](philosophy/unix-philosophy.md) |
+| **Evaluating packages** | [philosophy/package-research](philosophy/package-research.md) |
+| **Trying out code** | [philosophy/playground](philosophy/playground.md) |
+| **Documenting packages** | [tools/llmtxt](tools/llmtxt.md) |
+| **Managing Git** | [workflow/gitops](workflow/gitops.md) |
+| **Manager decisions** | [roles/manager](roles/manager.md) |
+| **Developer execution** | [roles/developer](roles/developer.md) |
+| **Independent review** | [roles/reviewer](roles/reviewer.md) |
 
-| Skill | File | Purpose |
-|-------|------|---------|
-| **Workflow** | `workflow.md` | Overall orchestration |
-| **GitOps** | `gitops.md` | Git operations, branching, PRs |
+## 14 Skills Total
 
-### Unix Philosophy Skills
+**Roles (3):**
+- Manager - Oversight and decisions
+- Developer - Implementation and execution
+- Reviewer - Independent quality validation
 
-| Skill | File | Purpose |
-|-------|------|---------|
-| **Package Research** | `package_research.md` | Evaluate existing packages before implementing |
-| **llmtxt Generation** | `llmtxt.md` | Create AI-friendly documentation for packages |
-| **Unix Philosophy** | `unix_philosophy.md` | Composition design principles |
+**Workflow (2):**
+- Workflow - Overall orchestration
+- GitOps - Git operations and branching
 
-### Dogfooding & Layout Skills
+**Foundations (4):**
+- Python Coding - Code standards
+- Python Testing - Test standards
+- Python Layout - File organization
+- Literate Python - Documentation annotations
 
-| Skill | File | Purpose |
-|-------|------|---------|
-| **Playground Exploration** | `playground.md` | Dogfooding through interactive code exploration |
-| **Python Layout** | `python_layout.md` | Consistent module structure and file organization |
+**Philosophy (3):**
+- Unix Philosophy - Composition principles
+- Package Research - Package evaluation
+- Playground - Dogfooding and exploration
+
+**Tools (1):**
+- llmtxt - Documentation generation
 
 ---
 
@@ -300,30 +316,55 @@ chore(scope): description    # Maintenance
 ## File Structure
 
 ```
-generic-workflow/
+python-quality-loop/
 ├── .claude-plugin/
-│   └── plugin.json           # Plugin configuration
+│   └── plugin.json                              # Plugin configuration
 ├── skills/
-│   ├── README.md             # This file
-│   ├── manager.md            # Manager role
-│   ├── developer.md          # Developer role
-│   ├── reviewer.md           # Reviewer role
-│   ├── workflow.md           # Orchestration
-│   ├── gitops.md             # Git operations
-│   ├── python_coding.md      # Coding standards
-│   ├── python_testing.md     # Testing standards
-│   ├── package_research.md   # Package evaluation (Unix philosophy)
-│   ├── llmtxt.md             # llmtxt documentation generation
-│   ├── unix_philosophy.md    # Composition design principles
-│   ├── playground.md         # Dogfooding/playground exploration
-│   └── python_layout.md      # Code layout standards
+│   ├── README.md                                # This file
+│   │
+│   ├── roles/                                   # Manager-Doer pattern
+│   │   ├── README.md
+│   │   ├── manager.md
+│   │   ├── developer.md
+│   │   └── reviewer.md
+│   │
+│   ├── workflow/                                # Orchestration
+│   │   ├── README.md
+│   │   ├── workflow.md
+│   │   └── gitops.md
+│   │
+│   ├── foundations/                             # Core technical skills
+│   │   ├── README.md
+│   │   ├── python-coding.md
+│   │   ├── python-testing.md
+│   │   ├── python-layout.md
+│   │   ├── literate-python.md                  # NEW: Literate programming
+│   │   └── references/
+│   │       └── literate-python-patterns.md
+│   │
+│   ├── philosophy/                              # Design principles
+│   │   ├── README.md
+│   │   ├── unix-philosophy.md
+│   │   ├── package-research.md
+│   │   └── playground.md
+│   │
+│   └── tools/                                   # Utility skills
+│       ├── README.md
+│       └── llmtxt.md
+│
+├── scripts/                                     # NEW: Utility scripts
+│   └── send-feedback-to-lab.py                 # Bridge to claude-skill-lab
+│
 ├── templates/
-│   ├── llmtxt_template.md    # Template for llmtxt documents
-│   └── playground_template.py # Starter playground file
-├── RESEARCH_FINDINGS.md      # Research behind design
-├── DESIGN_PROPOSAL.md        # Architecture proposal
-├── IMPLEMENTATION_GUIDE.md   # Step-by-step guide
-└── SKILL_STANDARD.md         # Skill format reference
+│   ├── llmtxt_template.md                      # Template for llmtxt documents
+│   └── playground_template.py                   # Starter playground file
+│
+├── RESEARCH_FINDINGS.md                         # Research behind design
+├── DESIGN_PROPOSAL.md                           # Architecture proposal
+├── IMPLEMENTATION_GUIDE.md                      # Step-by-step guide
+├── SKILL_STANDARD.md                            # Skill format reference
+├── INTEGRATION_GUIDE.md                         # NEW: Integration guide
+└── CHANGELOG.md                                 # NEW: Version history
 ```
 
 ---
@@ -361,6 +402,7 @@ description: When to use this skill...
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.4.0 | 2026-01 | **Reorganized** skills into 5 categories (roles, workflow, foundations, philosophy, tools); **Added** literate-python skill for literate programming annotations; **Added** bridge integration with claude-skill-lab for auto-feedback capture; **Renamed** skills to kebab-case |
 | 1.3.0 | 2026-01 | Added dogfooding philosophy (playground-exploration) and code layout standards (python-layout) |
 | 1.2.0 | 2026-01 | Added Unix philosophy skills (package-research, llmtxt, unix-philosophy) |
 | 1.1.0 | 2026-01 | Added GitOps integration |

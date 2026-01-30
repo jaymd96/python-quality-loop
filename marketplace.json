@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "python-quality-loop-marketplace",
+  "version": "1.0.0",
+  "description": "Python development workflow plugin with Manager-Doer orchestration and quality gates",
+  "owner": {
+    "name": "James",
+    "email": "jaymd96@example.com"
+  },
+  "plugins": [
+    {
+      "name": "python-quality-loop",
+      "description": "Manager-Doer workflow with quality gates for Python development",
+      "version": "1.3.0",
+      "author": {
+        "name": "James"
+      },
+      "source": ".",
+      "homepage": "https://github.com/jaymd96/python-quality-loop",
+      "repository": "https://github.com/jaymd96/python-quality-loop",
+      "license": "Apache-2.0",
+      "category": "development",
+      "keywords": [
+        "workflow",
+        "quality-gates",
+        "python",
+        "testing",
+        "orchestration",
+        "manager-doer"
+      ]
+    }
+  ]
+}
