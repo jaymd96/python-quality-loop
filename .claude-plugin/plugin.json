@@ -60,7 +60,7 @@
     },
     {
       "name": "python-layout",
-      "path": "skills/foundations/python-layout.md",
+      "path": "skills/foundations/python-layout/SKILL.md",
       "description": "Python project and module structure guidance. Consistent conventions for project structure, module organization, file naming, and code organization within files."
     },
     {
