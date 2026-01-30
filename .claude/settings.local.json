@@ -21,7 +21,8 @@
       "Bash(__NEW_LINE_07f7c0e66b977371__ python3 -m json.tool /Users/james/python-quality-loop/.claude-plugin/plugin.json)",
       "Bash(__NEW_LINE_0706328b33ab5120__ git add .claude-plugin/plugin.json)",
       "Bash(git push)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(__NEW_LINE_e3f4d40a96001ad9__ git add -A)"
     ]
   },
   "enabledPlugins": {
