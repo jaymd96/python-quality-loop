@@ -22,7 +22,9 @@
       "Bash(__NEW_LINE_0706328b33ab5120__ git add .claude-plugin/plugin.json)",
       "Bash(git push)",
       "Bash(grep:*)",
-      "Bash(__NEW_LINE_e3f4d40a96001ad9__ git add -A)"
+      "Bash(__NEW_LINE_e3f4d40a96001ad9__ git add -A)",
+      "Bash(gh repo:*)",
+      "Bash(__NEW_LINE_46e0a946e42f28c2__ git add -A)"
     ]
   },
   "enabledPlugins": {

@@ -1,12 +1,12 @@
 {
-  "name": "jaymd96",
+  "name": "dotskill",
   "description": "Manager-Doer workflow with quality gates for Python development",
   "version": "1.4.0",
   "author": {
     "name": "James"
   },
-  "homepage": "https://github.com/jaymd96/python-quality-loop",
-  "repository": "https://github.com/jaymd96/python-quality-loop",
+  "homepage": "https://github.com/jaymd96/dotskill",
+  "repository": "https://github.com/jaymd96/dotskill",
   "license": "Apache-2.0",
   "keywords": [
     "workflow",

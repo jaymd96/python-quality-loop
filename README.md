@@ -1,10 +1,10 @@
-# python-quality-loop
+# dotskill
 
 A comprehensive Manager-Doer workflow plugin for Claude Code that enforces quality gates throughout iterative Python development.
 
 ## What It Does
 
-`python-quality-loop` implements a structured, disciplined approach to Python development using:
+`dotskill` implements a structured, disciplined approach to Python development using:
 
 - **Manager-Doer Orchestration**: Three specialized roles (Manager, Developer, Reviewer) with clear responsibilities
 - **Quality Gates**: Automated checks at each phase to prevent regressions
@@ -20,20 +20,20 @@ A comprehensive Manager-Doer workflow plugin for Claude Code that enforces quali
 ### Option 1: From GitHub (Recommended)
 
 ```bash
-/plugin install jaymd96/python-quality-loop
+/plugin install jaymd96/dotskill
 ```
 
 ### Option 2: From Marketplace
 
 ```bash
-/plugin install python-quality-loop@official-marketplace
+/plugin install dotskill@official-marketplace
 ```
 
 ### Option 3: Local Development
 
 ```bash
-git clone https://github.com/jaymd96/python-quality-loop.git
-cd python-quality-loop
+git clone https://github.com/jaymd96/dotskill.git
+cd dotskill
 claude --plugin-dir .
 ```
 
@@ -44,7 +44,7 @@ claude --plugin-dir .
 Use the main workflow coordinator:
 
 ```
-/python-quality-loop:workflow
+/dotskill:workflow
 ```
 
 This guides you through:
@@ -59,19 +59,19 @@ Each role has focused responsibilities:
 
 #### Manager
 ```
-/python-quality-loop:manager
+/dotskill:manager
 ```
 Oversee progress, set quality expectations, make go/no-go decisions.
 
 #### Developer
 ```
-/python-quality-loop:developer
+/dotskill:developer
 ```
 Investigate requirements, implement code, run tests, prepare for review.
 
 #### Reviewer
 ```
-/python-quality-loop:reviewer
+/dotskill:reviewer
 ```
 Independently evaluate quality, compliance with gates, and readiness.
 
@@ -79,17 +79,17 @@ Independently evaluate quality, compliance with gates, and readiness.
 
 Research packages before implementing:
 ```
-/python-quality-loop:package-research
+/dotskill:package-research
 ```
 
 Generate AI-friendly documentation:
 ```
-/python-quality-loop:llmtxt-generation
+/dotskill:llmtxt-generation
 ```
 
 Explore features through playground:
 ```
-/python-quality-loop:playground-exploration
+/dotskill:playground-exploration
 ```
 
 ## Key Concepts
@@ -258,7 +258,7 @@ This plugin is built on several core philosophies:
 
 # Try restarting Claude Code
 # Then test with --plugin-dir flag
-claude --plugin-dir ./python-quality-loop
+claude --plugin-dir ./dotskill
 ```
 
 ### Skills not appearing
@@ -269,7 +269,7 @@ Ensure you're in a git repository and have proper permissions.
 
 ## Contributing
 
-Found an issue or have suggestions? [Open an issue](https://github.com/jaymd96/python-quality-loop/issues) on GitHub.
+Found an issue or have suggestions? [Open an issue](https://github.com/jaymd96/dotskill/issues) on GitHub.
 
 ## License
 
@@ -286,4 +286,4 @@ See [CHANGELOG](CHANGELOG.md) for version history and migration guide if upgradi
 For questions or issues:
 - Check [IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md) for usage help
 - Review [RESEARCH_FINDINGS.md](RESEARCH_FINDINGS.md) for philosophy background
-- Open an issue on [GitHub](https://github.com/jaymd96/python-quality-loop/issues)
+- Open an issue on [GitHub](https://github.com/jaymd96/dotskill/issues)
