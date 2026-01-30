@@ -138,13 +138,16 @@ This separation prevents conflicts of interest and ensures objective evaluation.
 
 ## Documentation
 
-Comprehensive guides are included:
+Comprehensive guides are organized in the [`docs/`](docs/) directory:
 
-- **[DESIGN_PROPOSAL.md](DESIGN_PROPOSAL.md)**: Architecture and design rationale
-- **[IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md)**: Step-by-step usage instructions
-- **[RESEARCH_FINDINGS.md](RESEARCH_FINDINGS.md)**: Background research and philosophy
-- **[SKILL_STANDARD.md](SKILL_STANDARD.md)**: Standards reference for skills
-- **[PLUGIN_ARCHITECTURE_LEARNINGS.md](PLUGIN_ARCHITECTURE_LEARNINGS.md)**: Claude Code plugin architecture insights
+- **[docs/IMPLEMENTATION_GUIDE.md](docs/IMPLEMENTATION_GUIDE.md)**: Step-by-step usage instructions
+- **[docs/DESIGN_PROPOSAL.md](docs/DESIGN_PROPOSAL.md)**: Architecture and design rationale
+- **[docs/RESEARCH_FINDINGS.md](docs/RESEARCH_FINDINGS.md)**: Background research and philosophy
+- **[docs/SKILL_STANDARD.md](docs/SKILL_STANDARD.md)**: Standards reference for skills
+- **[docs/BEST_PRACTICES_PHASE1_SUMMARY.md](docs/BEST_PRACTICES_PHASE1_SUMMARY.md)**: Best practices improvements overview
+- **[docs/PLUGIN_ARCHITECTURE_LEARNINGS.md](docs/PLUGIN_ARCHITECTURE_LEARNINGS.md)**: Claude Code plugin architecture insights
+
+See **[docs/README.md](docs/README.md)** for complete documentation index and navigation.
 
 ## Skills Reference
 
